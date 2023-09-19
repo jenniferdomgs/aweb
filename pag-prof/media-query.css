@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+    header, .container-main, .container-disciplinas, .container-publicacoes, footer {
+        width: 1000px;
+    }
+}

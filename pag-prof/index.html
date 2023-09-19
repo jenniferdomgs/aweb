@@ -3,118 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruna Raissa</title>
+    <title>Bruna Raissa - Física</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="fontawesome/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="media-query.css">
 </head>
 <body>
     <header>
-        <nav>
-            <p><a href="#areas de interesse">Áreas de interesse</a> | <a href="#disciplinas">Disciplinas</a> | <a href="#publicacoes">Publicações</a> | <a href="#educacao">Educação</a> | <a href="#contato">Contato</a></p>
+        <nav class="container-nav">
+            <div class="imgH">
+                <img src="img/2.png">
+            </div>
+            <div class="links">
+                <a href="#areasdeint">Áreas de interesse</a>
+                <a href="#disciplinas">Disciplinas</a>
+                <a href="#publicacoes">Publicações</a>
+                <a href="#educacao">Educação</a>
+                <a href="#contato">Contato</a></p>
+            </div>
         </nav>
-        <h1>Bruna Raissa (Professora de Física)</h1>
-        <figure>
-            <img src="img/20230619_151315.jpg" width="220" height="250">
-            <figcaption>(selfie de Bruna)</figcaption>
-        </figure>
+        <div class="itensH">
+            <div class="item-nav">
+                <h1 class="fontP">Bruna Raissa</h1>
+                <h3>Professora de Física</h3>
+                <a href="#intro"><button id="buttonH">Sobre</button></a>
+            </div>
+            <figure>
+                <img class="perfil" src="img/20230619_151315.jpg">
+            </figure>
+        </div>
     </header>
-    <main>
-        <section>
-            <article>
-                <p>Bruna Raíssa Gomes dos Santos Batista, professora de Física no IFRN, atualmente atuando no campus Ceará-mirim.</p>
-            </article>
+    <main class="container-main">
+        <section id="intro">
+            <h3>Sobre</h3>
+            <p>Bruna Raíssa Gomes dos Santos Batista, professora de Física no IFRN, atualmente atuando no campus Ceará-mirim.</p>
         </section>
     </main>
-    <section id="areas de interesse">
-        <h3>Áreas de interesse</h3>
-        <ul>
-            <li>Ensino de Física e Jogos</li>
-            <li>Ensino de Astronomia e Astronáutica</li>
-            <li>Divulgação Científica</li>
-        </ul>
-    </section>
-    <section id="disciplinas">
-        <h3>Disciplinas</h3>
-        <P>Disciplinas ministradas no semestre atual (2023.1):
-            Física II (turno vespertino)
-            Eletromagnetismo Básico I (turno noturno)
-        </P>
-        <table>
-            <thead>
-                <th><h4>Carga Horária - IFCM (23.1)</h4></th>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Horários</th>
-                    <th>Segunda-feira |</th>
-                    <th>Terça-feira |</th>
-                    <th>Quarta-feira </th>
-                </tr>
-                
-                <tr>
-                    <td>13:00 às 13:45</td>
-                    <td>-</td>
-                    <td>EBM2V</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>13:45 às 14:30</td>
-                    <td>-</td>
-                    <td>EBM2V</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>14:40 às 15:25</td>
-                    <td>PJD2V</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>15:25 às 16:10</td>
-                    <td>PJD2V</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>16:30 às 17:15</td>
-                    <td>EBM2V</td>
-                    <td>PJD2V</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>17:15 às 18:00</td>
-                    <td>EBM2V</td>
-                    <td>PJD2V</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>19:00 às 19:45</td>
-                    <td>LICMAT5N</td>
-                    <td>-</td>
-                    <td>LICMAT5N</td>
-                </tr>
-                <tr>
-                    <td>19:45 às 20:30</td>
-                    <td>LICMAT5N</td>
-                    <td>-</td>
-                    <td>LICMAT5N</td>
-                </tr>
 
-            </tbody>
-        </table>
+    <section id="areasdeint">
+        <h3>Áreas de interesse</h3>
+        <div class="AI">
+            <div class="ai">
+                <img src="img/AI-1.jpg">
+                <p>Ensino de Física e Jogos</p>
+            </div>
+            <div class="ai">
+                <img src="img/AI-2.jpg">
+                <p>Ensino de Astronomia e Astronáutica</p>
+            </div>
+            <div class="ai">
+                <img src="img/AI-3.jpg">
+                <p>Divulgação Científica</p>
+            </div>
+        </div>
     </section>
-    <section id="publicacoes">
-        <h3>Publicações</h3>
-        <figure>
-            <img src="./img/Captura de tela 2023-06-19 155046.png">
-            <figcaption>Canal da Professora no Youtube: <a href="https://www.youtube.com/@CasaldaFisica" target="_blank">Casal da Física</a></figcaption>
-        </figure>
-    </section>
+
     <section id="educacao">
         <h3>Educação</h3>
-        <p>Licenciada em Física pelo IFRN Campus Caicó e Mestra em Ensino de Ciências Naturais e Matemática pela UFRN.</p>
+        <p>Licenciada em Física - IFRN</p>
+        <p>Mestra em Ensino de Ciências Naturais e Matemática - UFRN</p>
     </section>
+
+    <div class="separa"></div>
+
+    <section id="disciplinas">
+        <div class="dc">
+            <h3>Disciplinas</h3>
+            <p><i class="fa-solid fa-user-graduate"></i> - Ministradas no atual semestre <br><br> (2023.2) no campus Ceará-mirim do IFRN:</p>
+            <div class="mat"><p><i class="fa-solid fa-atom"></i> Física II (turno vespertino)</p></div>
+            <div class="mat"><p><i class="fa-solid fa-atom"></i> Eletromagnetismo Básico I (turno noturno)</p></div>
+        </div>
+        <div class="tb">
+            <table>
+                <thead>
+                    <th colspan="4">Carga Horária - IFCM (23.1)</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Horários</th>
+                        <th>Segunda-feira |</th>
+                        <th>Terça-feira |</th>
+                        <th>Quarta-feira </th>
+                    </tr>
+                    
+                    <tr>
+                        <td>07:00 ás 07:45</td>
+                        <td>PJD2M</td>
+                        <td>PJD2M</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>07:45 às 08:30</td>
+                        <td>PJD2M</td>
+                        <td>PJD2M</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>08:50 ás 09:35</td>
+                        <td>INFO2M</td>
+                        <td>INFO2M</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>09:35 ás 10:20</td>
+                        <td>INFO2M</td>
+                        <td>INFO2M</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>13:00 ás 13:45</td>
+                        <td>-</td>
+                        <td>PJD2V</td>
+                        <td>EBM2V</td>
+                    </tr>
+                    <tr>
+                        <td>13:45 ás 14:30</td>
+                        <td>-</td>
+                        <td>PJD2V</td>
+                        <td>EBM2V</td>
+                    </tr>
+                    <tr>
+                        <td>14:40 ás 15:25</td>
+                        <td>PJD2V</td>
+                        <td>EBM2V</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>15:25 ás 16:10</td>
+                        <td>PJD2V</td>
+                        <td>EBM2V</td>
+                        <td>-</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="publicacoes">
+        <h3>Publicações</h3>
+        <div class="pub"><a href="https://www.youtube.com/@CasaldaFisica" target="_blank"><i class="fa-brands fa-youtube"></i> Casal da Física</a></div>
+    
+    </section>
+
     <footer id="contato">
         <h3>Contato</h3>
-        <p><strong>Email escolar:</strong> <a href=".">bruna.raissa@escolar.ifrn.edu.br</a></p>
+        <div class="email">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email Escolar: bruna.raissa@escolar.ifrn.edu.br</p>
+        </div>
     </footer>
 </body>
 </html>

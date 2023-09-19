@@ -1,0 +1,306 @@
+* {
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bartleen Script";
+    src: url(fontes/Bartleen\ Script.ttf);
+}
+
+@font-face {
+    font-family: "Louis George Cafe Bold";
+    src: url(fontes/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+p, ul, a:link, table, button {
+    font-family: "Louis George Cafe Bold";
+    font-size: 20px;
+}
+
+ h3 {
+    font-family: "Bartleen Script";
+    font-size: 35px;
+}
+
+.item-nav > h3 {
+    font-size: 30px;
+    font-family: "Louis George Cafe Bold";
+    padding-left: 10px;
+}
+
+h1 {
+    font-family: "Bartleen Script";
+    font-size: 70px;
+}
+
+header {
+    display: flex;
+    height: 900px;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E7DFD8;
+}
+.imgH {
+    margin-left: 100px;
+    padding-top: 10px;
+}
+.imgH > img {
+    height: 70px;
+    border-radius: 100%;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding-left: 170px;
+    gap: 300px;
+    align-items: center;
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+}
+
+.links > a:link {
+    text-decoration: none;
+    color:#231F20;
+    
+}
+
+.links > a:hover {
+    color: #FABB17;
+}
+
+.links > a:visited {
+    color: #231F20;
+}
+
+.perfil {
+    height: 450px;
+    border-radius: 100%;
+    
+}
+
+.itensH {
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+    gap: 200px;
+}
+
+.item-nav {
+    font-size: 50px;
+    color: #231F20;
+}
+
+
+.container-main {
+    display: flex;
+    height: 700px;
+    width: auto;
+    background-image: url(img/fundo1.png);
+    background-size: cover;
+    color: #E7DFD8;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+.item-main {
+    display: flex;
+    
+}
+
+#disciplinas {
+    display: flex;
+    height: 700px;
+    width: auto;
+    background-color: #231F20;
+    color:#E7DFD8;
+    gap: 100px;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.dc, .tb {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.mat {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    padding-left: 5px;
+    background-color: #FABB17;
+    color: #231F20;
+    border-radius: 10px;
+}
+
+#publicacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    gap: 50px;
+    padding-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-color:#E7DFD8;
+    color:#231F20;
+}
+
+.pub {
+    display: flex;
+    height: 60px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    background-color: #231F20;
+    color: #FABB17;
+    border-radius: 10px;
+}
+
+.pub > a:link {
+    text-decoration: none;
+    color: #FABB17;
+}
+
+.pub > a:hover {
+    color: #E7DFD8;
+}
+
+.pub > a:visited {
+    color: #FABB17;
+}
+
+#buttonH {
+    height: 60px;
+    border-radius: 50px;
+    width: 250px;
+    background-color: #E7DFD8;
+    border-color: #231F20;
+    color: #231F20;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#buttonH:hover {
+    color: #E7DFD8;
+    background-color: #231F20;
+    border-color: #E7DFD8;
+}
+
+footer {
+    display: flex;
+    background-color: #231F20;
+    height: 300px;
+    color: #FABB17;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.email {
+    display: flex;
+    gap: 20px;
+}
+
+#educacao {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+    gap: 50px;
+    padding-top: 50px;
+    background-image: url(img/fundo2.png);
+    background-size: cover;
+    color: #E7DFD8;
+}
+
+.separa {
+    height: 5px;
+    width: 100%;
+    background-color: #E7DFD8;
+}
+
+#areasdeint {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #E7DFD8;
+    color:#231F20;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.AI {
+    display: flex;
+    justify-content: center;
+}
+
+.ai {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.ai > img {
+    height: 260px;
+    border-radius: 100%;
+}
+
+.tb table{
+    border: solid 1px #FABB17;
+    border-collapse:collapse ;
+    width: 100%;
+
+}
+
+.tb th, td{
+    border: 1px solid #FABB17;
+    padding: 8px;
+
+}
+
+.tb thead{
+    background-color:#231F20;
+    color: #FABB17;
+}
+
+.tb{
+    padding-top: 80px;
+}
