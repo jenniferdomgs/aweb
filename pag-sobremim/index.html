@@ -1,90 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt/br">
     <head>
-        <title>Jennifer Karoline</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet">
+        <title>Jennifer Domingos</title>
+        <link href="fontawesome/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="media-query.css">
     </head>
     
     <body>
         <header>
-            <nav>
-                <p><a href="#curiosidades">Curiosidades</a> | <a href="#escolar">Histórico Escolar</a> | <a href="#habilidades">Habilidades</a> | <a href="#contato">Contato</a></p>
+            <nav class="container-nav">
+                <img id="logo" src="img/logo-j.png">
+                <div class="menu">
+                    <a href="#curiosidades">Curiosidades</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#escolar">Histórico Escolar</a>
+                    <a href="#contato">Contato</a>
+                </div>
             </nav>
-            <figure>
-                <img src="./2022-08-03-22-29-41-218.jpg" width="200" height="250">
-                <figcaption>Selfie de Jennifer</figcaption>
-            </figure>
-            <h1>Quem sou eu?</h1>
+            <div class="item-nav">
+                <div id="nb">
+                    <h1>Jennifer Domingos</h1>
+                    <a href="#sobre"><button id="buttonH">Sobre</button></a>
+                </div>
+                <div>
+                    <img class="perfil" src="img/./2022-08-03-22-29-41-218.jpg">
+                </div>
+                    
+            </div>       
         </header>
-    
         <main>
             <section>
-                <article>
-                    <p>Jennifer Karoline, nasci em 03 de Agosto de 2005 (17 anos), meu signo é leão (pra quem acredita) e moro em Ceará-mirim/RN.</p>
-            <p>Sou acadêmica em Informática no <a href="https://portal.ifrn.edu.br/" target="_blank">IFRN</a>, e sim, essa página é um teste.</p>
-            <p>Além de estudar (que não é pouco), faço musculação, gosto de ler, assistir futebol e curtir momentos com minha família e amigos.</p>
-            <p>Sou uma pessoa tagarela (pra quem merece), gente boa (com quem merece), tímida (porém, depende), talvez um pouco chata e estressada, esforçada (pra o que quero), objetiva e um pouquinho antissocial.</p>
-            <p>Pretendo cursar Ciência da Computação ou Engenharia de Software, mas Jornalismo também é uma opção.</p>
+                <article id="sobre">
+                    <div class="intro">
+                        <div>
+                            <h1>Sobre Mim</h1>
+                        </div>
+                        <div class="textosm">
+                            <p>Meu nome é Jennifer Karoline da Silva Domingos, nasci no dia 03 de Agosto de 2005 (18 anos) e moro em Ceará-mirim/RN.</p> <br>
+                            <p>Sou acadêmica em Informática no <a id="if" href="https://portal.ifrn.edu.br/" target="_blank">IFRN.</a></p> <br>
+                            <p>Além de estudar (que não é pouco), faço musculação e no tempo livre gosto de ler, assistir documentários que me despertem curiosidade, futebol e casos criminais.</p> <br>
+                            <p>Acho que minha linguagem do amor é tempo de qualidade, gosto de curtir momentos com pessoas importantes pra mim.</p> <br>
+                            <p>Curto trap, mas tenho um gosto bem variado pra música.</p> <br>
+                            <p>Sou tagarela de vez enquanto, tímida (porém, depende), me considero uma pessoa esforçada, organizada e consequentemente, disciplinada. Ah, sou um pouco antissocial também.</p> <br>
+                            <p>Pretendo seguir na área de TI, mas ainda não sei qual curso quero fazer, estou em processo de descoberta (sobre mim mesma). Também tenho uma paixão por Jornalismo, então se algum dia decidir mudar de área, "é pra lá que eu vou".</p> <br>
+                        </div>
+                    </div>
                 </article>
+            </section>
+
+            <section id="curiosidades">
+                <h1>Curiosidades</h1>
+                <div class="curis">
+                    <div class="c">
+                        <img src="img/pocah.jpg">
+                        <p>Possuo traços indígenas</p>
+                    </div>
+                    <div class="c">
+                        <img src="img/fone-rosa.jpg">
+                        <p>Faço tudo ouvindo música</p>
+                    </div>
+                    <div class="c">
+                        <img src="img/game.jpg">
+                        <p>Já fui redatora de um jornal sobre jogos online</p>
+                    </div>
+                    <div class="c">
+                        <img src="img/livros.jpg">
+                        <p>Aprendi a ler com 4 anos de idade</p>
+                    </div>
+                    <div class="c">
+                        <img src="img/macaco.jpg">
+                        <p>Gosto de macacos</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="separa"></div>
+
+            <section id="causo">
+                <div class="c1">
+                    <h1>Sonin da tarde</h1>
+                    <p>
+                    Certo dia, eu estava tirando meu cochilo da tarde, na área da minha casa, quando minha mãe me chamou e disse: "Jennifer, vou ali na vizinha, jaja chamo pra você abrir o portão". Virei para o outro lado e dormir novamente. 30 minutos depois minha mãe voltou e chamou no portão, de acordo com ela, chamou durante quase meia hora e eu não ouvi. Umas 2hrs depois, acordei e percebi que estava sozinha em casa, quando então lembrei do que minha mãe falou e fui na vizinha, nem preciso dizer o quanto minha mãe estava estressada comigo né?
+                    </p>
+                </div>
+            </section>
+
+            <section id="escolar">
+                <table>
+                    <thead>
+                        <tr>
+                        <th><h2>Histórico Escolar</h2></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2008</td>
+                            <td>Jardim Esperaltinhas</td>
+                        </tr>
+                        <tr>
+                            <td>2012</td>
+                            <td>E. M. Dr. Júlio Gomes de Sena</td>
+                        </tr>
+                        <tr>
+                            <td>2014</td>
+                            <td>E. E. Imaculada Conceição</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>E. M. Prof. Francisca Avelino</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>E. M. Madalena Antunes Pereira</td>
+                        </tr>
+                        <tr>
+                            <td>2021</td>
+                            <td>IFRN - CM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <div>
+                    <p>Desenvolvimento Web</p>
+                    <p>Comunicação</p>
+                    <p>Organização</p>
+                    <p>Escrita</p>
+                </div>
             </section>
         </main>
 
-        <section id="curiosidades">
-            <h2>5 curiosidades sobre mim:</h2>
-            <ol>
-                <li>nasci no aniversário de 60 anos do meu avô materno</li>
-                <li>possuo traços indígenas</li>
-                <li>aprendi a ler com 4 anos de idade</li>
-                <li>faço tudo ouvindo música</li>
-                <li>já quis ser estilista</li>
-            </ol>
-        </section> 
-
-       <section id="escolar">
-        <table>
-            <thead>
-                <tr>
-                    <th><h2>Meu histórico escolar:</h2></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2008</td>
-                    <td>Jardim Esperaltinhas</td>
-                </tr>
-                <tr>
-                    <td>2012</td>
-                    <td>E. M. Dr. Júlio Gomes de Sena</td>
-                </tr>
-                <tr>
-                    <td>2014</td>
-                    <td>E. E. Imaculada Conceição</td>
-                </tr>
-                <tr>
-                    <td>2016</td>
-                    <td>E. M. Prof. Francisca Avelino</td>
-                </tr>
-                <tr>
-                    <td>2017</td>
-                    <td>E. M. Madalena Antunes Pereira</td>
-                </tr>
-                <tr>
-                    <td>2021</td>
-                    <td>IFRN - CM</td>
-                </tr>
-            </tbody>
-        </table>
-       </section>
-
-       <section id="habilidades">
-        <h2>Minhas Habilidades:</h2>
-        <p>Aprendo rápido, sou persistente (o que me ajuda a ser boa em muito coisa), campeã mundial da sonequinha e da fofoca.</p>
-       </section>
-
         <footer id="contato">
-            <h2>Contato:</h2>
-            <p>Email Pessoal: <a href=".">jennifercout.10@gmail.com</a></p>
-            <p>Email Acadêmico: <a href=".">jennifer.k@escolar.ifrn.edu.br</a></p>
-            <p><a href="http://instagram.com/jennycoutx" target="_blank">Instagram</a> | <a href="http://pinterest.com/jennyctx" target="_blank">Pinterest</a> | <a href="https://github.com/jenniferkaroline" target="_blank">GitHub</a></p>
+            <div class="contato">
+                <h2>Contato</h2>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Email Acadêmico: jennifer.k@escolar.ifrn.edu.br</p>
+            </div>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>Email Pessoal: jennifercout.10@gmail.com</p>
+            </div>
+            <div class="redesS">
+                <a href="http://instagram.com/jenniferdmgs" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://pinterest.com/jenniferdmgs" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="https://github.com/jenniferkaroline" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
         </footer>  
 
     </body>

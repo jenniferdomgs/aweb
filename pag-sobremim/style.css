@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bartleen Script";
+    src: url(fontes/Bartleen\ Script.ttf);
+}
+
+@font-face {
+    font-family: "Louis George Cafe Bold";
+    src: url(fontes/Louis\ George\ Cafe\ Bold.ttf);
+}
+
+p, ol, a:link, table, button {
+    font-family: "Louis George Cafe Bold";
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bartleen Script";
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+header {
+    display: flex;
+    height: 900px;
+    width: auto;
+    background-color: #2B1821;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-nav {
+    display: flex;
+    height: 100px; 
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 80px;
+    border-radius: 100%;
+    padding-left: 30px;
+}
+
+.perfil {
+    height: 450px;
+    border-radius: 100%;
+}
+
+#nb {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.item-nav {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+    align-items: center;
+    gap: 100px;
+    padding-top: 150px;
+}
+
+.menu {
+    display: flex;
+    font-size: 18px;
+    padding-right: 20px;
+    gap: 20px;
+}
+
+#if {
+    text-decoration: none;
+    color: white;
+}
+
+#if:visited {
+    color: white;
+}
+
+.menu > a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.menu > a:visited {
+    color: white;
+}
+
+.menu > a:hover {
+    color: #FD288D;
+}
+
+#sobre {
+    height: 700px;
+    background-image: url(img/fundo1.png);
+    background-size: cover;
+    color: white;
+}
+
+#curiosidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: #2B1821;
+    color: #FD288D;
+    text-align: center;
+}
+
+#causo {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    background-image: url(img/fundo2.png);
+    background-size: cover;
+    color: #FD288D;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.c1 > p {
+    font-size: 30px;
+}
+
+.c1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    height: 100%;
+    width: 900px;
+    gap: 50px;
+
+}
+
+#habilidades {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#escolar {
+    height: 700px;
+    display: flex;
+    background-color: #FD288D;
+    color: white;
+}
+
+#buttonH {
+    height: 50px;
+    border-radius: 50px;
+    width: 200px;
+    border-style: none;
+    background-color: #FD288D;
+    color: white;
+    cursor: pointer;
+}
+
+#buttonH:hover {
+    background-color: white;
+    color: #FD288D;
+}
+
+footer {
+    display: flex;
+    height: 400px;
+    background-color: #FD288D; 
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+footer > .redesS > a:link {
+    color: white;
+}
+
+footer > .redesS > a:visited {
+    color: white;
+}
+
+.contato, .email, .redesS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.contato {
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.email, .redesS {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.redesS > a:link {
+    color: #A6945D;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.redesS > a:visited {
+    color: #A6945D;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 400px;
+}
+
+.textosm {
+    display: flex;
+    height: 450px;
+    width: 500px;
+    font-size: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.curis {
+    display: flex;
+    justify-content: center;
+}
+
+.c {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.c > img {
+    height: 260px;
+    border-radius: 100%;
+}
+
+.separa {
+    height: 5px;
+    width: 100%;
+    background-color: #FD288D;
+}
