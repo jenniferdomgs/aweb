@@ -161,6 +161,10 @@ header {
     display: flex;
     background-color: #FD288D;
     color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 #buttonH {
@@ -266,3 +270,37 @@ footer > .redesS > a:visited {
     width: 100%;
     background-color: #FD288D;
 }
+
+#TC {
+    color: white;
+}
+.tb table{
+    border: solid 2px white;
+    border-collapse:collapse ;
+    height: 400px;
+    width: 700px;
+    background-color: #2b1821cb;
+
+}
+
+.tb th, td{
+    border: 2px solid white;
+    padding: 8px;
+
+}
+
+.habs {
+    display: flex;
+    gap: 20px;
+    color: #FD288D;
+    justify-content: center;
+}
+
+.h {
+    height: 400px;
+    width: 300px;
+    background-color: #2B1821;
+    border-radius: 20px;
+}
+
+
