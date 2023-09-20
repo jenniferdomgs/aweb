@@ -1,16 +1,17 @@
 @media (max-width: 768px) {
     .header {
-        height: auto; 
+        height: auto;
+        width: 100%; 
     }
 
     .container-nav {
-        flex-direction: column; 
         height: auto; 
-        gap: 20px;
+        gap: 5px;
     }
 
     #logo {
         height: 50px; 
+        padding-left: 5px;
     }
 
     .perfil {
@@ -21,14 +22,34 @@
         flex-direction: column-reverse; 
         align-items: center;
         height: auto; 
-        font-size: 16px; 
+        font-size: 10px; 
         padding-top: 20px; 
     }
 
-    .menu {
-        font-size: 5px; 
-        gap: 5px; 
+    .menu > a:link {
+        font-size: 12px;
     }
+
+    #buttonH {
+        height: 30px;
+        width: 110px;
+    }
+
+    #nb {
+        align-items: center;
+        gap: 50px;
+    }
+
+    #nb > h1 {
+        font-size: 40px;
+    }
+
+    .separa {
+        width: 100%;
+        height: 1px;
+    }
+
+    
 }
 
 
