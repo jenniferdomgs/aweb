@@ -1,5 +1,90 @@
-@media screen and (max-width: 1200px) {
-    header, .container-main, .container-disciplinas, .container-publicacoes, footer {
-        width: 1000px;
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        width: 100%;
+    }
+    header nav {
+        height: auto;
+        padding-top: 30px;
+        flex-direction: row;
+        gap: 10px;
+        padding-left: 10px;
+    }
+
+    .imgH {
+        margin-left: 10px;
+        padding-top: 0%;
+    }
+
+    .imgH > img {
+        height: 50px;
+        border-radius: 100%;
+    }
+
+    .links {
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .links > a:link {
+        font-size: 15px;
+    }
+
+    .perfil {
+        height: 200px;
+    }
+
+    .itensH {
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-top: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .item-nav > h1 {
+        font-size: 40px;
+    }
+
+    .item-nav > h3 {
+        font-size: 20px;
+    }
+
+    #buttonH {
+        height: 30px;
+        width: 110px;
+    }
+
+    .container-main {
+        height: auto;
+        width: 100%;
+        background-image: none;
+        background-color: #231F20;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #intro {
+        padding: 10px;
+    }
+
+    #areasdeint {
+        height: auto;
+        width: 100%;
+        gap: 30px;
+    }
+
+    .ai {
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .ai > img {
+        height: 100px;
+        border-radius: 100%;
+    }
+
+    .ai > p {
+        font-size: 18px;
     }
 }

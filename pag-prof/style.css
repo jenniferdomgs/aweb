@@ -267,6 +267,7 @@ footer {
 .AI {
     display: flex;
     justify-content: center;
+    padding: 20px;
 }
 
 .ai {
