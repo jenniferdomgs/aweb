@@ -6,7 +6,7 @@
 
     .container-nav {
         height: auto; 
-        gap: 5px;
+        padding-top: 30px;
     }
 
     #logo {
@@ -23,7 +23,7 @@
         align-items: center;
         height: auto; 
         font-size: 10px; 
-        padding-top: 20px; 
+        padding-top: 50px; 
     }
 
     .menu > a:link {
@@ -49,7 +49,30 @@
         height: 1px;
     }
 
-    
+    #sobre {
+        height: auto; 
+        background-image: none; 
+        background-color: #FD288D;
+        text-align: center; 
+    }
+
+    .intro {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+        padding-top: 20px; 
+    }
+
+    #SM {
+        color: #2b1821ed;
+    }
+
+    .textosm {
+        height: auto; 
+        width: 100%; 
+        text-align: center; 
+        padding: 10px;
+    }
 }
 
 
