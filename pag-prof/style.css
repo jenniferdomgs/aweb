@@ -232,6 +232,7 @@ footer {
 .email {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 #educacao {
@@ -247,6 +248,17 @@ footer {
     background-image: url(img/fundo2.png);
     background-size: cover;
     color: #E7DFD8;
+}
+
+#Ediv {
+    display: flex;
+    height: 80px;
+    width: 450px;
+    background-color: #FABB17;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #231F20;
 }
 
 .separa {

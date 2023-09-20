@@ -27,7 +27,7 @@
     }
 
     .links > a:link {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .perfil {
@@ -86,5 +86,68 @@
 
     .ai > p {
         font-size: 18px;
+    }
+
+    #educacao {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        background-image: none;
+        background-color: #231F20;
+        padding-bottom: 50px;
+    }
+
+    #educacao > p {
+        font-size: 18px;
+    }
+
+    #Ediv {
+        height: 110px;
+        width: 210px;
+        padding: 10px;
+    }
+
+    #disciplinas {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    #disciplinas > p {
+        font-size: 18px;
+    }
+
+    .tb {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+    .tb > table {
+        height: auto;
+        width: 100%;
+    }
+
+    #publicacoes {
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+        align-items: center;
+    }
+
+    footer {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .email {
+        padding-bottom: 50px;
+    }
+    
+    .email > p {
+        font-size: 15px;
     }
 }
