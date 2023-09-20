@@ -19,7 +19,7 @@ p, ol, a:link, table, button {
     font-size: 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3 {
     font-family: "Bartleen Script";
     font-size: 30px;
 }
@@ -154,13 +154,18 @@ header {
     height: 700px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 50px;
+    background-color: #FD288D;
+    color: #2B1821;
 }
 
 #escolar {
     height: 700px;
     display: flex;
-    background-color: #FD288D;
-    color: white;
+    background-color: #2B1821;
+    color: #FD288D;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -279,7 +284,8 @@ footer > .redesS > a:visited {
     border-collapse:collapse ;
     height: 400px;
     width: 700px;
-    background-color: #2b1821cb;
+    background-color: #FD288D;
+    color: white;
 
 }
 
@@ -292,15 +298,21 @@ footer > .redesS > a:visited {
 .habs {
     display: flex;
     gap: 20px;
-    color: #FD288D;
+    color: white;
     justify-content: center;
+    text-align: center;
 }
 
 .h {
-    height: 400px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    height: 350px;
+    width: 250px;
     background-color: #2B1821;
     border-radius: 20px;
+    padding: 15px;
 }
 
 
