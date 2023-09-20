@@ -114,14 +114,17 @@ header nav {
 }
 
 #intro {
-    height: 400px;
+    height: auto;
     width: 100%;
     display: flex;
     font-size: 20px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-top: 50px;
     gap: 50px;
+    text-align: center;
+    padding: 20px;
 }
 
 .item-main {
@@ -237,6 +240,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
     padding-left: 50px;
     gap: 50px;
     padding-top: 50px;
