@@ -123,6 +123,25 @@ header {
     text-align: center;
 }
 
+.curis {
+    display: flex;
+    justify-content: center;
+}
+
+.c {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+}
+
+.c > img {
+    height: 260px;
+    border-radius: 100%;
+}
+
 #causo {
     height: 700px;
     width: 100%;
@@ -150,6 +169,10 @@ header {
 
 }
 
+#TC {
+    color: white;
+}
+
 #habilidades {
     height: 700px;
     display: flex;
@@ -161,15 +184,24 @@ header {
     color: #2B1821;
 }
 
-#escolar {
-    height: 700px;
+.habs {
     display: flex;
-    background-color: #2B1821;
-    color: #FD288D;
+    gap: 20px;
+    color: white;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+
+.h {
+    display: flex;
     flex-direction: column;
-    gap: 50px;
+    justify-content: center;
+    gap: 15px;
+    height: 350px;
+    width: 250px;
+    background-color: #2B1821;
+    border-radius: 20px;
+    padding: 15px;
 }
 
 #buttonH {
@@ -185,6 +217,33 @@ header {
 #buttonH:hover {
     background-color: white;
     color: #FD288D;
+}
+
+#escolar {
+    height: 700px;
+    display: flex;
+    background-color: #2B1821;
+    color: #FD288D;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.tb table{
+    border: solid 2px white;
+    border-collapse:collapse ;
+    height: 400px;
+    width: 700px;
+    background-color: #FD288D;
+    color: white;
+
+}
+
+.tb th, td{
+    border: 2px solid white;
+    padding: 8px;
+
 }
 
 footer {
@@ -217,6 +276,11 @@ footer > .redesS > a:visited {
 .contato {
     padding-top: 50px;
     padding-left: 45px;
+    color: #2B1821;
+}
+
+#cI {
+    color: #2B1821;
 }
 
 .email, .redesS {
@@ -251,24 +315,6 @@ footer > .redesS > a:visited {
     flex-direction: column;
 }
 
-.curis {
-    display: flex;
-    justify-content: center;
-}
-
-.c {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
-    gap: 80px;
-    align-items: center;
-}
-
-.c > img {
-    height: 260px;
-    border-radius: 100%;
-}
 
 .separa {
     height: 5px;
@@ -276,43 +322,8 @@ footer > .redesS > a:visited {
     background-color: #FD288D;
 }
 
-#TC {
-    color: white;
-}
-.tb table{
-    border: solid 2px white;
-    border-collapse:collapse ;
-    height: 400px;
-    width: 700px;
-    background-color: #FD288D;
-    color: white;
 
-}
 
-.tb th, td{
-    border: 2px solid white;
-    padding: 8px;
 
-}
-
-.habs {
-    display: flex;
-    gap: 20px;
-    color: white;
-    justify-content: center;
-    text-align: center;
-}
-
-.h {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    height: 350px;
-    width: 250px;
-    background-color: #2B1821;
-    border-radius: 20px;
-    padding: 15px;
-}
 
 

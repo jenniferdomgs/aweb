@@ -38,6 +38,8 @@
     #nb {
         align-items: center;
         gap: 50px;
+        height: auto;
+        width: 100%;
     }
 
     #nb > h1 {
@@ -64,7 +66,7 @@
     }
 
     #SM {
-        color: #2b1821ed;
+        color: #2B1821;
     }
 
     .textosm {
@@ -73,6 +75,101 @@
         text-align: center; 
         padding: 10px;
     }
+
+    #curiosidades {
+        height: auto;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .curis {
+        flex-direction: row;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .c {
+        gap: 20px;
+    }
+
+    .c > p {
+        font-size: 15px;
+    }
+
+    .c > img {
+        height: 80px;
+        border-radius: 100%;
+    }
+
+    #causo {
+        background-image: none;
+        background-color: #2B1821;
+        height: auto;
+        width: 100%;
+        padding-left: 0%;
+        padding: 10px;
+        padding-bottom: 70px;
+    }
+
+    .c1 > p {
+        font-size: 15px;
+    }
+
+    .c1 {
+       gap: 20px; 
+       justify-content: center;
+    }
+
+    #habilidades {
+        height: auto;
+        width: 100%;
+    }
+
+    .habs {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .h {
+        height: 200px;
+        width: 250px;
+    }
+
+    .h > p {
+        font-size: 15px;
+    }
+
+    .h > h3 {
+        font-size: 20px;
+    }
+
+    #escolar {
+        height: auto;
+        width: 100%;
+        gap: 20px;
+        padding-bottom: 50px;
+    }
+
+    .tb {
+        padding: 20px;
+    }
+
+    .tb > table {
+        height: auto;
+        width: 100%;
+    }
+
+    #contato {
+        height: auto;
+        width: 100%;
+        padding-left: 0%;
+    }
+
+    .contato {
+        padding-left: 10px;
+    }
+
+
 }
 
 
