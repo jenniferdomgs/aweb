@@ -300,6 +300,7 @@ header {
 .ES {
     display: flex;
     flex-wrap: wrap;
+    color: #5D6679;
 }
 
 .container3 {
@@ -308,6 +309,8 @@ header {
 }
 
 .estoque {
+    display: flex;
+    flex-direction: column;
     width: 384px;
     height: 294px;
 }
