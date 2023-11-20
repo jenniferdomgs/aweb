@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+    <nav class="sideBar">
+        <div class="top">
+            <div class="logo">
+            </div>
+            <h3>NutriIF</h3>
+        </div>
+        <div class="listMenu">
+            <a href="#"><i class="fa-solid fa-house"></i> Painel</a>
+            <a href="#"><i class="fa-solid fa-cart-flatbed"></i> Estoque</a>
+            <a href="#"><i class="fa-solid fa-chart-line"></i> Relatório</a>
+            <a href="#"><i class="fa-solid fa-list-check"></i> Fornecedores</a>
+            <a href="#"><i class="fa-solid fa-box-open"></i> Pedidos</a>
+            <a href="#"><i class="fa-solid fa-user"></i> Usuários</a>
+        </div>
+        <div class="listMenubottom">
+            <a href="#"><i class="fa-solid fa-circle-info"></i> Sobre o NutriIF</a>
+            <a href="#"><i class="fa-solid fa-right-from-bracket"></i> Sair</a>
+        </div>
+    </nav>
+    <header>
+        <p>Joseane da Silva</p>
+        <img src="imgs/img-user.png" alt="user">
+    </header>
+    <main>
+        <div class="containerP">
+            <div class="container1">
+                <div >
+                    <section class="menuProduto">
+                        <h4 class="titulos">Produto</h4>
+                        <div class="ElementoP">
+                            <div class="g">
+                                <i class="fa-solid fa-boxes-packing"></i>
+                                <p>Registrar Consumo</p>
+                            </div>
+                            <div class="g">
+                                <i class="fa-solid fa-check-to-slot"></i>
+                                <p>Registrar Recebimento</p>
+                            </div>
+                            <div class="g">
+                                <i class="fa-solid fa-list-check"></i>
+                                <p>Fazer Pedido</p>
+                            </div>
+                            <div class="g">
+                                <i class="fa-solid fa-arrows-rotate"></i>
+                                <p>Ajustar</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="Empenhos-Pedidos">
+                        <h4 class="titulos">Empenhos/Pedidos</h4>
+                        <div class="ElementoP">
+                            <div class="g">
+                                <i class="fa-regular fa-handshake"></i>
+                                <p>3</p>
+                                <p>Empenhos Ativos</p>
+                            </div>
+                            <div class="g">
+                                <i class="fa-regular fa-credit-card"></i>
+                                <p>R$ 3.000,00</p>
+                                <P>Valor Empenhado</P>
+                            </div>
+                            <div class="g">
+                                <i class="fa-solid fa-gift"></i>
+                                <p>11</p>
+                                <p>Pedidos Realizados</p>
+                            </div>
+                            <div class="g">
+                                <i class="fa-solid fa-comments-dollar"></i>
+                                <p>R$ 2.000,00</p>
+                                <p>Valor Disponível</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                
+                <section class="estoqueemBaixa">
+                    <div class="estT">
+                        <h4>Estoque em Baixa</h4>
+                        <p>Ver Todos</p>
+                    </div>
+
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 71.png" alt="">
+                        <div class="textalert">
+                            <h5>Achocolatado</h5>
+                            <p>Quantidade Restante: 10 Pacotes</p>
+                        </div>
+                        <div class="buBaixo"><p>Baixo</p> </div>
+                    </div>
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 72.png" alt="">
+                        <div class="textalert">
+                            <h5>Queijo</h5>
+                            <p>Quantidade Restante: 90 Gramas</p>
+                        </div>
+                        <div class="buBaixo"><p>Baixo</p> </div>
+                    </div>
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 72.png" alt="">
+                        <div class="textalert">
+                            <h5>Pão</h5>
+                            <p>Quantidade Restante: 5 Unidades</p>
+                        </div>
+                        <div class="buBaixo"><p>Baixo</p> </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container2">
+                <section class="ultimosPedidos">
+                    <div class="ultP">
+                        <h4 class="titulos">Últimos Pedidos</h4>
+                        <p>Ver Todos</p>
+                    </div>
+                    <div id="T">
+                        <div class="table">
+                            <p>Produto</p>
+                            <p>Fanta</p>
+                            <p>Pippo's</p>
+                            <p>Sal</p>
+                        </div>
+                        <div class="table">
+                            <p>Empenho</p>
+                            <p>2023NE00322</p>
+                            <p>2023NE00322</p>
+                            <p>2023NE00322</p>
+                        </div>
+                        <div class="table">
+                            <p>Quantidade</p>
+                            <p>10 l</p>
+                            <p>50 pct</p>
+                            <p>3 kg</p>
+                        </div>
+                        <div class="table">
+                            <p>Nº Pedido</p>
+                            <p>12</p>
+                            <p>12</p>
+                            <p>117</p>
+                        </div>
+                        <div class="table">
+                            <p>Valor</p>
+                            <p>R$ 100</p>
+                            <p>R$ 207</p>
+                            <p>R$ 105</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="vencimentoProx">
+                    <div class="estT">
+                        <h4>Vencimento Próximo</h4>
+                        <p>Ver Todos</p>
+                    </div>
+
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 71.png" alt="">
+                        <div class="textalert">
+                            <h5>Carne moída</h5>
+                            <p>Quantidade: 2 kg</p>
+                        </div>
+                        <div class="diasR"><p>2 dias restantes</p> </div>
+                    </div>
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 72.png" alt="">
+                        <div class="textalert">
+                            <h5>Chips</h5>
+                            <p>Quantidade: 30 pacotes</p>
+                        </div>
+                        <div class="diasR"><p>5 dias restantes</p> </div>
+                    </div>
+                    <div class="alerta">
+                        <img src="imgs/Rectangle 72.png" alt="">
+                        <div class="textalert">
+                            <h5>Bolacha</h5>
+                            <p>Quantidade: 5 Unidades</p>
+                        </div>
+                        <div class="diasR"><p>7 dias restantes</p> </div>
+                    </div>
+                </section>
+            </div>
+            <div class="container3">
+                <section class="graficoConsumo">
+                    <div class="graC">
+                        <h4 class="titulos">Demonstrativo de Consumo - Açúcar</h4>
+                        <button id="filtrar"><i class="fa-solid fa-filter"></i> Filtrar</button>
+                    </div>
+                    <img src="imgs/Graph.png" alt="">
+                </section>
+                <section class="estoque">
+                    <h4>Estoque</h4>
+                    <div class="ES">
+                        <div id="linha1"  class="iEstoque">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                            <p>868</p>
+                            <p id="totalp" class="p2">Total de Produtos</p>
+                        </div>
+                        <div class="iEstoque">
+                            <i class="fa-solid fa-truck-fast"></i>
+                            <p>5</p>
+                            <p id="pReceber" class="p2">Produtos a Receber</p>
+                        </div>
+                        <div id="linha2" class="iEstoque">
+                            <i class="fa-solid fa-building"></i>
+                            <p>31</p>
+                            <p class="p2">Fornecedores</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+        </div>
+    </main>
+
+</body>
+</html>

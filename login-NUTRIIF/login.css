@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: white;
+
+}
+
+label {
+    border: none;
+    color: #667085;
+    font-size: 14px;
+
+}
+
+input {
+    border-radius: 8px;
+    font-size: 14px;
+    color: #667085;
+    height: 44px;
+    width: 360px;
+    background-color: white;
+    border: 1px solid #d0d5dd;
+}
+
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 360px;
+    height: 70px;
+
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    height: 900px;
+    width: 1400px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.body {
+    height: 846px;
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.botao{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 54px;
+    width: 100%;
+
+}
+
+.botao button{
+    width: 133px;
+    height: 40px;
+    background-color: #1366D9;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-right: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    gap: 32px;
+}
+
+.logo h1{
+    font-size: 47px;
+    color: #009ED8;
+    background-color: white;
+}
+
+#img {
+    background-color: #009ED8;
+    height: 216.50px;
+    width: 216.50px;
+    border-radius: 108.25px;
+}
+
+.padd {
+    padding-bottom: 5px;
+}
+
+.forms {
+    background-color: white;
+    height: 466px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#pot{
+    height: 44.03px;
+    width: 48px;
+    border-radius: 100%;
+    background-color: #009ED8;
+}
+
+#form{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forms h2{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+
+.forms h3{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #667085;
+}
+
+.esqueci{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    width: 360px;
+    color:#1366D9;
+    font-size: 14px;
+    border: none;
+    background-color: #fff;
+    font-family: sans-serif;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1366D9;
+    width: 360px;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.entrar > h3 {
+    color: white;
+}
+
+@media (max-width: 768px) { 
+    
+
+}
